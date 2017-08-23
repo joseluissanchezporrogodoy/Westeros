@@ -35,6 +35,8 @@
 		113275111F4C8D4A0003E029 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132750F1F4C8D4A0003E029 /* WikiViewController.swift */; };
 		113275121F4C8D4A0003E029 /* WikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113275101F4C8D4A0003E029 /* WikiViewController.xib */; };
 		113275141F4D5FF60003E029 /* DateExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275131F4D5FF60003E029 /* DateExtensionTest.swift */; };
+		11DCBDC41F4D793500E97E0E /* iconHouseTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDC21F4D793500E97E0E /* iconHouseTab.png */; };
+		11DCBDC51F4D793500E97E0E /* iconSeasons.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDC31F4D793500E97E0E /* iconSeasons.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		1132750F1F4C8D4A0003E029 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
 		113275101F4C8D4A0003E029 /* WikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikiViewController.xib; sourceTree = "<group>"; };
 		113275131F4D5FF60003E029 /* DateExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionTest.swift; sourceTree = "<group>"; };
+		11DCBDC21F4D793500E97E0E /* iconHouseTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconHouseTab.png; sourceTree = "<group>"; };
+		11DCBDC31F4D793500E97E0E /* iconSeasons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSeasons.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,8 @@
 		113274F71F4C0AC70003E029 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11DCBDC21F4D793500E97E0E /* iconHouseTab.png */,
+				11DCBDC31F4D793500E97E0E /* iconSeasons.png */,
 				113274F81F4C0AD50003E029 /* targaryenSmall.jpg */,
 				113274F91F4C0AD50003E029 /* lannister.jpg */,
 				113274FA1F4C0AD50003E029 /* codeIsComing.png */,
@@ -303,6 +309,8 @@
 				113274FD1F4C0AD50003E029 /* codeIsComing.png in Resources */,
 				113274BF1F4C09980003E029 /* Assets.xcassets in Resources */,
 				1132750E1F4C8BCC0003E029 /* HouseViewController.xib in Resources */,
+				11DCBDC41F4D793500E97E0E /* iconHouseTab.png in Resources */,
+				11DCBDC51F4D793500E97E0E /* iconSeasons.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +554,7 @@
 				113274D31F4C09980003E029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		113274D41F4C09980003E029 /* Build configuration list for PBXNativeTarget "WesterosTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +563,7 @@
 				113274D61F4C09980003E029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

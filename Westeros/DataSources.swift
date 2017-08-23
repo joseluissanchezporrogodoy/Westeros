@@ -41,7 +41,7 @@ final class DataSources{
         }
         
     }
-    static func seasonDataSource(model: [Season]) -> ArrayDataSource<Season>{
+    static func seasonsDataSource(model: [Season]) -> ArrayDataSource<Season>{
         
         return ArrayDataSource(model: model, cellMaker: { (season: Season, tableView: UITableView) -> UITableViewCell in
             

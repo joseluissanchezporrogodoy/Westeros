@@ -19,25 +19,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Crear Window
         // Override point for customization after application launch.
         
+        // Crear Window
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
         // Model
         let houses = Repository.local.houses
         
+        let seasons = Repository.local.seasons
         
         // Controllers
-        let dataSource = DataSources.housesDataSource(model: houses)
-        let housesVC = ArrayTableViewController(dataSource: dataSource,
+        let housesDataSource = DataSources.housesDataSource(model: houses)
+        let housesVC = ArrayTableViewController(dataSource: housesDataSource,
                                                 title: "Westeros",
                                                 style: .plain,
                                                 delegate: GreatHousesDelegate()).wrappedInNavigation()
         
+        let seasonsDataSource = DataSources.seasonsDataSource(model: seasons)
+       
+        let seasonsVC = ArrayTableViewController(dataSource: seasonsDataSource,
+                                                             title: "Seasons",
+                                                             style: .plain,
+                                                              delegate: nil).wrappedInNavigation()
         
+        let rootViewController = UITabBarController()
+        rootViewController.viewControllers = [housesVC, seasonsVC]
         
-        // Window
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = housesVC
-        window?.backgroundColor = UIColor.orange
-        window?.makeKeyAndVisible()
-
+        // Configuramos los tabBarItems
+        housesVC.tabBarItem = UITabBarItem(title: "Houses", image:#imageLiteral(resourceName: "iconHouseTab.png") , selectedImage: nil)
+        seasonsVC.tabBarItem = UITabBarItem(title: "Seasons", image:#imageLiteral(resourceName: "iconSeasons.png"), selectedImage: nil)
+        
+        // Asignamos el RootVC
+        window?.rootViewController = rootViewController
         return true
     }
 

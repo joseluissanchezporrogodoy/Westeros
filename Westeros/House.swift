@@ -20,7 +20,7 @@ final class House{
     let sigil : Sigil
     let words : Words
     let wikiURL: URL
-    private var _members: Members
+    var _members: Members
     
     init(name: String, sigil : Sigil, words: Words, wikiURL: URL){
         (self.name,self.sigil,self.words,self.wikiURL) = (name, sigil, words,wikiURL)
