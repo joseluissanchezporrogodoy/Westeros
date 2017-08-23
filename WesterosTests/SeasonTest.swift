@@ -19,8 +19,9 @@ class SeasonTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        season1 = Season(name: "1", releaseDate: Date.stringToDate(dateString: "11-11-1984"))
-        season2 = Season(name: "2", releaseDate: Date.stringToDate(dateString: "12-11-1984"))
+        season1 = Season(name: "1", releaseDate: Date.stringToDate(dateString: "17-04-2011"),image: #imageLiteral(resourceName: "season1.jpg"),synopsis: "Trouble is brewing in the Seven Kingdoms of Westeros. For the driven inhabitants of this visionary world, control of Westeros' Iron Throne holds the lure of great power. But in a land where the seasons can last a lifetime, winter is coming...and beyond the Great Wall that protects them, an ancient evil has returned. In Season One, the story centers on three primary areas: the Stark and the Lannister families, whose designs on controlling the throne threaten a tenuous peace; the dragon princess Daenerys, heir to the former dynasty, who waits just over the Narrow Sea with her malevolent brother Viserys; and the Great Wall--a massive barrier of ice where a forgotten danger is stirring.")
+        season2 = Season(name: "2", releaseDate: Date.stringToDate(dateString: "01-04-2012"), image: #imageLiteral(resourceName: "season2.jpg"), synopsis: "The cold winds of winter are rising in Westeros...war is coming...and five kings continue their savage quest for control of the all-powerful Iron Throne. With winter fast approaching, the coveted Iron Throne is occupied by the cruel Joffrey, counseled by his conniving mother Cersei and uncle Tyrion. But the Lannister hold on the Throne is under assault on many fronts. Meanwhile, a new leader is rising among the wildings outside the Great Wall, adding new perils for Jon Snow and the order of the Night's Watch.")
+
         e1s1 = Episode(title: "1", date: Date.stringToDate(dateString:"11-11-1984"), season: season1)
         e2s1 = Episode(title: "2", date: Date.stringToDate(dateString:"12-11-1984"), season: season1)
         e1s2 = Episode(title: "1", date: Date.stringToDate(dateString: "13-11-1984"), season: season2)
@@ -33,7 +34,7 @@ class SeasonTest: XCTestCase {
     }
     
     func testSeasonExistance(){
-        let seasonTest = Season(name: "1", releaseDate: Date.stringToDate(dateString: "11-11-1984"))
+        let seasonTest = Season(name: "1", releaseDate: Date.stringToDate(dateString: "17-04-2011"),image: #imageLiteral(resourceName: "season1.jpg"),synopsis: "Trouble is brewing in the Seven Kingdoms of Westeros. For the driven inhabitants of this visionary world, control of Westeros' Iron Throne holds the lure of great power. But in a land where the seasons can last a lifetime, winter is coming...and beyond the Great Wall that protects them, an ancient evil has returned. In Season One, the story centers on three primary areas: the Stark and the Lannister families, whose designs on controlling the throne threaten a tenuous peace; the dragon princess Daenerys, heir to the former dynasty, who waits just over the Narrow Sea with her malevolent brother Viserys; and the Great Wall--a massive barrier of ice where a forgotten danger is stirring.")
         XCTAssertNotNil(seasonTest)
     }
     
@@ -57,7 +58,7 @@ class SeasonTest: XCTestCase {
         XCTAssertEqual(season1, season1)
         
         // Igualdad
-        let seasonTest = Season(name: "1", releaseDate: Date.stringToDate(dateString: "11-11-1984"))
+        let seasonTest = Season(name: "1", releaseDate: Date.stringToDate(dateString: "17-04-2011"),image: #imageLiteral(resourceName: "season1.jpg"),synopsis: "Trouble is brewing in the Seven Kingdoms of Westeros. For the driven inhabitants of this visionary world, control of Westeros' Iron Throne holds the lure of great power. But in a land where the seasons can last a lifetime, winter is coming...and beyond the Great Wall that protects them, an ancient evil has returned. In Season One, the story centers on three primary areas: the Stark and the Lannister families, whose designs on controlling the throne threaten a tenuous peace; the dragon princess Daenerys, heir to the former dynasty, who waits just over the Narrow Sea with her malevolent brother Viserys; and the Great Wall--a massive barrier of ice where a forgotten danger is stirring.")
         XCTAssertEqual(season1, seasonTest)
         
         // Desigualdad

@@ -39,6 +39,13 @@
 		11DCBDC51F4D793500E97E0E /* iconSeasons.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDC31F4D793500E97E0E /* iconSeasons.png */; };
 		11DCBDC71F4D7BDF00E97E0E /* HouseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DCBDC61F4D7BDF00E97E0E /* HouseFactory.swift */; };
 		11DCBDC91F4D985600E97E0E /* SeasonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DCBDC81F4D985600E97E0E /* SeasonFactory.swift */; };
+		11DCBDD51F4D9D1300E97E0E /* season1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDCE1F4D9D1300E97E0E /* season1.jpg */; };
+		11DCBDD61F4D9D1300E97E0E /* season2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDCF1F4D9D1300E97E0E /* season2.jpg */; };
+		11DCBDD71F4D9D1300E97E0E /* season3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDD01F4D9D1300E97E0E /* season3.jpg */; };
+		11DCBDD81F4D9D1300E97E0E /* season4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDD11F4D9D1300E97E0E /* season4.jpg */; };
+		11DCBDD91F4D9D1300E97E0E /* season5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDD21F4D9D1300E97E0E /* season5.jpg */; };
+		11DCBDDA1F4D9D1300E97E0E /* season6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDD31F4D9D1300E97E0E /* season6.jpg */; };
+		11DCBDDB1F4D9D1300E97E0E /* season7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDD41F4D9D1300E97E0E /* season7.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +95,13 @@
 		11DCBDC31F4D793500E97E0E /* iconSeasons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSeasons.png; sourceTree = "<group>"; };
 		11DCBDC61F4D7BDF00E97E0E /* HouseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseFactory.swift; sourceTree = "<group>"; };
 		11DCBDC81F4D985600E97E0E /* SeasonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonFactory.swift; sourceTree = "<group>"; };
+		11DCBDCE1F4D9D1300E97E0E /* season1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season1.jpg; sourceTree = "<group>"; };
+		11DCBDCF1F4D9D1300E97E0E /* season2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season2.jpg; sourceTree = "<group>"; };
+		11DCBDD01F4D9D1300E97E0E /* season3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season3.jpg; sourceTree = "<group>"; };
+		11DCBDD11F4D9D1300E97E0E /* season4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season4.jpg; sourceTree = "<group>"; };
+		11DCBDD21F4D9D1300E97E0E /* season5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season5.jpg; sourceTree = "<group>"; };
+		11DCBDD31F4D9D1300E97E0E /* season6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season6.jpg; sourceTree = "<group>"; };
+		11DCBDD41F4D9D1300E97E0E /* season7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season7.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +194,7 @@
 		113274F71F4C0AC70003E029 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11DCBDCD1F4D9CFB00E97E0E /* Seasons */,
 				11DCBDC21F4D793500E97E0E /* iconHouseTab.png */,
 				11DCBDC31F4D793500E97E0E /* iconSeasons.png */,
 				113274F81F4C0AD50003E029 /* targaryenSmall.jpg */,
@@ -228,6 +243,20 @@
 				11DCBDC81F4D985600E97E0E /* SeasonFactory.swift */,
 			);
 			name = Repository;
+			sourceTree = "<group>";
+		};
+		11DCBDCD1F4D9CFB00E97E0E /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				11DCBDCE1F4D9D1300E97E0E /* season1.jpg */,
+				11DCBDCF1F4D9D1300E97E0E /* season2.jpg */,
+				11DCBDD01F4D9D1300E97E0E /* season3.jpg */,
+				11DCBDD11F4D9D1300E97E0E /* season4.jpg */,
+				11DCBDD21F4D9D1300E97E0E /* season5.jpg */,
+				11DCBDD31F4D9D1300E97E0E /* season6.jpg */,
+				11DCBDD41F4D9D1300E97E0E /* season7.jpg */,
+			);
+			name = Seasons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,13 +347,20 @@
 			files = (
 				113274FC1F4C0AD50003E029 /* lannister.jpg in Resources */,
 				113275121F4C8D4A0003E029 /* WikiViewController.xib in Resources */,
+				11DCBDD71F4D9D1300E97E0E /* season3.jpg in Resources */,
 				113274C21F4C09980003E029 /* LaunchScreen.storyboard in Resources */,
+				11DCBDD91F4D9D1300E97E0E /* season5.jpg in Resources */,
 				113274FB1F4C0AD50003E029 /* targaryenSmall.jpg in Resources */,
+				11DCBDD51F4D9D1300E97E0E /* season1.jpg in Resources */,
 				113274FD1F4C0AD50003E029 /* codeIsComing.png in Resources */,
 				113274BF1F4C09980003E029 /* Assets.xcassets in Resources */,
 				1132750E1F4C8BCC0003E029 /* HouseViewController.xib in Resources */,
+				11DCBDDB1F4D9D1300E97E0E /* season7.jpg in Resources */,
 				11DCBDC41F4D793500E97E0E /* iconHouseTab.png in Resources */,
 				11DCBDC51F4D793500E97E0E /* iconSeasons.png in Resources */,
+				11DCBDD81F4D9D1300E97E0E /* season4.jpg in Resources */,
+				11DCBDD61F4D9D1300E97E0E /* season2.jpg in Resources */,
+				11DCBDDA1F4D9D1300E97E0E /* season6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
