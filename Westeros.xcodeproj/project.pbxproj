@@ -37,6 +37,8 @@
 		113275141F4D5FF60003E029 /* DateExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275131F4D5FF60003E029 /* DateExtensionTest.swift */; };
 		11DCBDC41F4D793500E97E0E /* iconHouseTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDC21F4D793500E97E0E /* iconHouseTab.png */; };
 		11DCBDC51F4D793500E97E0E /* iconSeasons.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDC31F4D793500E97E0E /* iconSeasons.png */; };
+		11DCBDC71F4D7BDF00E97E0E /* HouseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DCBDC61F4D7BDF00E97E0E /* HouseFactory.swift */; };
+		11DCBDC91F4D985600E97E0E /* SeasonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DCBDC81F4D985600E97E0E /* SeasonFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		113275131F4D5FF60003E029 /* DateExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionTest.swift; sourceTree = "<group>"; };
 		11DCBDC21F4D793500E97E0E /* iconHouseTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconHouseTab.png; sourceTree = "<group>"; };
 		11DCBDC31F4D793500E97E0E /* iconSeasons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSeasons.png; sourceTree = "<group>"; };
+		11DCBDC61F4D7BDF00E97E0E /* HouseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseFactory.swift; sourceTree = "<group>"; };
+		11DCBDC81F4D985600E97E0E /* SeasonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,9 +159,9 @@
 		113274E71F4C0A5D0003E029 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				11DCBDCA1F4D988900E97E0E /* Repository */,
 				113274E81F4C0A760003E029 /* House.swift */,
 				113274E91F4C0A760003E029 /* Person.swift */,
-				113274EA1F4C0A760003E029 /* Repository.swift */,
 				113274EB1F4C0A760003E029 /* Season.swift */,
 				113274EC1F4C0A760003E029 /* Episode.swift */,
 			);
@@ -214,6 +218,16 @@
 				1132750C1F4C8BCC0003E029 /* HouseViewController.xib */,
 			);
 			name = NoGenerics;
+			sourceTree = "<group>";
+		};
+		11DCBDCA1F4D988900E97E0E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				113274EA1F4C0A760003E029 /* Repository.swift */,
+				11DCBDC61F4D7BDF00E97E0E /* HouseFactory.swift */,
+				11DCBDC81F4D985600E97E0E /* SeasonFactory.swift */,
+			);
+			name = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +349,7 @@
 				113274F11F4C0A760003E029 /* Episode.swift in Sources */,
 				113274ED1F4C0A760003E029 /* House.swift in Sources */,
 				113275111F4C8D4A0003E029 /* WikiViewController.swift in Sources */,
+				11DCBDC71F4D7BDF00E97E0E /* HouseFactory.swift in Sources */,
 				113274F01F4C0A760003E029 /* Season.swift in Sources */,
 				113274B81F4C09980003E029 /* AppDelegate.swift in Sources */,
 				113275071F4C0EB00003E029 /* Delegates.swift in Sources */,
@@ -342,6 +357,7 @@
 				113274F61F4C0AB60003E029 /* DateExtensions.swift in Sources */,
 				113275091F4C0ECA0003E029 /* DataSources.swift in Sources */,
 				113274EF1F4C0A760003E029 /* Repository.swift in Sources */,
+				11DCBDC91F4D985600E97E0E /* SeasonFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
