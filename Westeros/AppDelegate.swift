@@ -16,6 +16,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // Crear Window
+        // Override point for customization after application launch.
+        
+        // Model
+        let houses = Repository.local.houses
+        
+        
+        // Controllers
+        let dataSource = DataSources.housesDataSource(model: houses)
+        let housesVC = ArrayTableViewController(dataSource: dataSource,
+                                                title: "Westeros",
+                                                style: .plain,
+                                                delegate: GreatHousesDelegate()).wrappedInNavigation()
+        
+        
+        
+        // Window
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = housesVC
+        window?.backgroundColor = UIColor.orange
+        window?.makeKeyAndVisible()
+
         return true
     }
 

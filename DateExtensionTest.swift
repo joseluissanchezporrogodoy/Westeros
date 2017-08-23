@@ -1,6 +1,6 @@
 //
-//  WesterosTests.swift
-//  WesterosTests
+//  DateExtensionTest.swift
+//  Westeros
 //
 //  Created by jose luis sanchez-porro godoy on 22/08/2017.
 //  Copyright © 2017 jose luis sanchez-porro godoy. All rights reserved.
@@ -8,8 +8,7 @@
 
 import XCTest
 @testable import Westeros
-
-class WesterosTests: XCTestCase {
+class DateExtensionTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,16 +20,13 @@ class WesterosTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testDateFormater(){
+        
+        let dateTest = Date.stringToDate(dateString: "11-11-1984")
+        
+        let stringDate = Date.dateToString(date:dateTest)
+        
+        XCTAssertEqual("11-11-1984", stringDate)
+        
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }
