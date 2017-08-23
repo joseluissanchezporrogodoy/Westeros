@@ -40,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let seasonsVC = ArrayTableViewController(dataSource: seasonsDataSource,
                                                              title: "Seasons",
                                                              style: .plain,
-                                                              delegate: nil).wrappedInNavigation()
+                                                             delegate: GreatSeasonsDelegate()).wrappedInNavigation()
         
         let rootViewController = UITabBarController()
         rootViewController.viewControllers = [housesVC, seasonsVC]

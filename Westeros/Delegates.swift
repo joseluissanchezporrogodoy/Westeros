@@ -26,3 +26,13 @@ final class GreatHousesDelegate: BaseViewControllerDelegate<House>, UITableViewD
     }
 }
 
+final class GreatSeasonsDelegate: BaseViewControllerDelegate<Season>, UITableViewDelegate{
+    
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let season = source?.element(atIndexPath: indexPath),
+            let nav = viewController?.navigationController{
+            let vc = SeasonViewController(model: season)
+            nav.pushViewController(vc, animated: true)
+        }
+    }
+}

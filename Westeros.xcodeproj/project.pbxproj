@@ -35,6 +35,8 @@
 		113275111F4C8D4A0003E029 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132750F1F4C8D4A0003E029 /* WikiViewController.swift */; };
 		113275121F4C8D4A0003E029 /* WikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113275101F4C8D4A0003E029 /* WikiViewController.xib */; };
 		113275141F4D5FF60003E029 /* DateExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275131F4D5FF60003E029 /* DateExtensionTest.swift */; };
+		113275171F4DD4BD0003E029 /* SeasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275151F4DD4BD0003E029 /* SeasonViewController.swift */; };
+		113275181F4DD4BD0003E029 /* SeasonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113275161F4DD4BD0003E029 /* SeasonViewController.xib */; };
 		117CA3C31F4DA9700008786B /* episode1x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B71F4DA9700008786B /* episode1x01.jpg */; };
 		117CA3C41F4DA9700008786B /* episode1x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B81F4DA9700008786B /* episode1x02.jpg */; };
 		117CA3C51F4DA9700008786B /* episode2x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B91F4DA9700008786B /* episode2x01.jpg */; };
@@ -103,6 +105,8 @@
 		1132750F1F4C8D4A0003E029 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
 		113275101F4C8D4A0003E029 /* WikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikiViewController.xib; sourceTree = "<group>"; };
 		113275131F4D5FF60003E029 /* DateExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionTest.swift; sourceTree = "<group>"; };
+		113275151F4DD4BD0003E029 /* SeasonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonViewController.swift; sourceTree = "<group>"; };
+		113275161F4DD4BD0003E029 /* SeasonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeasonViewController.xib; sourceTree = "<group>"; };
 		117CA3B71F4DA9700008786B /* episode1x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode1x01.jpg; sourceTree = "<group>"; };
 		117CA3B81F4DA9700008786B /* episode1x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode1x02.jpg; sourceTree = "<group>"; };
 		117CA3B91F4DA9700008786B /* episode2x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode2x01.jpg; sourceTree = "<group>"; };
@@ -256,6 +260,8 @@
 				113275101F4C8D4A0003E029 /* WikiViewController.xib */,
 				1132750B1F4C8BCC0003E029 /* HouseViewController.swift */,
 				1132750C1F4C8BCC0003E029 /* HouseViewController.xib */,
+				113275151F4DD4BD0003E029 /* SeasonViewController.swift */,
+				113275161F4DD4BD0003E029 /* SeasonViewController.xib */,
 			);
 			name = NoGenerics;
 			sourceTree = "<group>";
@@ -413,6 +419,7 @@
 				117CA3C81F4DA9700008786B /* episode3x02.jpg in Resources */,
 				11DCBDC51F4D793500E97E0E /* iconSeasons.png in Resources */,
 				117CA3C71F4DA9700008786B /* episode3x01.jpg in Resources */,
+				113275181F4DD4BD0003E029 /* SeasonViewController.xib in Resources */,
 				11DCBDD81F4D9D1300E97E0E /* season4.jpg in Resources */,
 				117CA3CA1F4DA9700008786B /* episode4x02.jpg in Resources */,
 				11DCBDD61F4D9D1300E97E0E /* season2.jpg in Resources */,
@@ -450,6 +457,7 @@
 				113275091F4C0ECA0003E029 /* DataSources.swift in Sources */,
 				113274EF1F4C0A760003E029 /* Repository.swift in Sources */,
 				11DCBDC91F4D985600E97E0E /* SeasonFactory.swift in Sources */,
+				113275171F4DD4BD0003E029 /* SeasonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,7 @@ extension Date {
         return formatter.date(from: dateString)!
     }
     
-    static func dateToString(date: Date)-> String?{
+    static func dateToString(date: Date)-> String{
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd-mm-yyyy"

@@ -51,7 +51,7 @@ final class DataSources{
                 cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellID)
             }
             
-            
+            cell?.imageView?.image = season.image
             cell?.textLabel?.text = season.name
             cell?.detailTextLabel?.text = "\(season.count) Episodes"
             return cell!
@@ -67,9 +67,9 @@ final class DataSources{
                 cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellID)
             }
             
-            
+            cell?.imageView?.image = episode.image
             cell?.textLabel?.text = episode.title
-            cell?.detailTextLabel?.text = "\(String(describing: Date.dateToString(date: episode.date))) Estreno"
+            cell?.detailTextLabel?.text = "Estreno: \(String(describing: Date.dateToString(date: episode.date))) "
             return cell!
         })
     }

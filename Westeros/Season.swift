@@ -18,7 +18,7 @@ final class Season{
     let image: UIImage
     let synopsis: String
     
-    var _episodes : Episodes
+    private var _episodes : Episodes
     init(name: String, releaseDate:Date, image: UIImage, synopsis: String ){
         self.name = name
         self.releaseDate = releaseDate
@@ -58,7 +58,7 @@ extension Season{
 extension Season {
     
     // Variable para igualdad de objetos
-    var proxy: String {
+    private var proxy: String {
         get {
             return "\(name) \(releaseDate)"
         }
