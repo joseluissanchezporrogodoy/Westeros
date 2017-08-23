@@ -35,6 +35,18 @@
 		113275111F4C8D4A0003E029 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132750F1F4C8D4A0003E029 /* WikiViewController.swift */; };
 		113275121F4C8D4A0003E029 /* WikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113275101F4C8D4A0003E029 /* WikiViewController.xib */; };
 		113275141F4D5FF60003E029 /* DateExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275131F4D5FF60003E029 /* DateExtensionTest.swift */; };
+		117CA3C31F4DA9700008786B /* episode1x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B71F4DA9700008786B /* episode1x01.jpg */; };
+		117CA3C41F4DA9700008786B /* episode1x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B81F4DA9700008786B /* episode1x02.jpg */; };
+		117CA3C51F4DA9700008786B /* episode2x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B91F4DA9700008786B /* episode2x01.jpg */; };
+		117CA3C61F4DA9700008786B /* episode2x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3BA1F4DA9700008786B /* episode2x02.jpg */; };
+		117CA3C71F4DA9700008786B /* episode3x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3BB1F4DA9700008786B /* episode3x01.jpg */; };
+		117CA3C81F4DA9700008786B /* episode3x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3BC1F4DA9700008786B /* episode3x02.jpg */; };
+		117CA3C91F4DA9700008786B /* episode4x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3BD1F4DA9700008786B /* episode4x01.jpg */; };
+		117CA3CA1F4DA9700008786B /* episode4x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3BE1F4DA9700008786B /* episode4x02.jpg */; };
+		117CA3CB1F4DA9700008786B /* episode5x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3BF1F4DA9700008786B /* episode5x01.jpg */; };
+		117CA3CC1F4DA9700008786B /* episode5x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3C01F4DA9700008786B /* episode5x02.jpg */; };
+		117CA3CD1F4DA9700008786B /* episode6x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3C11F4DA9700008786B /* episode6x01.jpg */; };
+		117CA3CE1F4DA9700008786B /* episode6x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3C21F4DA9700008786B /* episode6x02.jpg */; };
 		11DCBDC41F4D793500E97E0E /* iconHouseTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDC21F4D793500E97E0E /* iconHouseTab.png */; };
 		11DCBDC51F4D793500E97E0E /* iconSeasons.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCBDC31F4D793500E97E0E /* iconSeasons.png */; };
 		11DCBDC71F4D7BDF00E97E0E /* HouseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DCBDC61F4D7BDF00E97E0E /* HouseFactory.swift */; };
@@ -91,6 +103,18 @@
 		1132750F1F4C8D4A0003E029 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
 		113275101F4C8D4A0003E029 /* WikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikiViewController.xib; sourceTree = "<group>"; };
 		113275131F4D5FF60003E029 /* DateExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionTest.swift; sourceTree = "<group>"; };
+		117CA3B71F4DA9700008786B /* episode1x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode1x01.jpg; sourceTree = "<group>"; };
+		117CA3B81F4DA9700008786B /* episode1x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode1x02.jpg; sourceTree = "<group>"; };
+		117CA3B91F4DA9700008786B /* episode2x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode2x01.jpg; sourceTree = "<group>"; };
+		117CA3BA1F4DA9700008786B /* episode2x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode2x02.jpg; sourceTree = "<group>"; };
+		117CA3BB1F4DA9700008786B /* episode3x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode3x01.jpg; sourceTree = "<group>"; };
+		117CA3BC1F4DA9700008786B /* episode3x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode3x02.jpg; sourceTree = "<group>"; };
+		117CA3BD1F4DA9700008786B /* episode4x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode4x01.jpg; sourceTree = "<group>"; };
+		117CA3BE1F4DA9700008786B /* episode4x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode4x02.jpg; sourceTree = "<group>"; };
+		117CA3BF1F4DA9700008786B /* episode5x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode5x01.jpg; sourceTree = "<group>"; };
+		117CA3C01F4DA9700008786B /* episode5x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode5x02.jpg; sourceTree = "<group>"; };
+		117CA3C11F4DA9700008786B /* episode6x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode6x01.jpg; sourceTree = "<group>"; };
+		117CA3C21F4DA9700008786B /* episode6x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode6x02.jpg; sourceTree = "<group>"; };
 		11DCBDC21F4D793500E97E0E /* iconHouseTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconHouseTab.png; sourceTree = "<group>"; };
 		11DCBDC31F4D793500E97E0E /* iconSeasons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSeasons.png; sourceTree = "<group>"; };
 		11DCBDC61F4D7BDF00E97E0E /* HouseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseFactory.swift; sourceTree = "<group>"; };
@@ -194,6 +218,7 @@
 		113274F71F4C0AC70003E029 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				117CA3B61F4DA9450008786B /* Episodes */,
 				11DCBDCD1F4D9CFB00E97E0E /* Seasons */,
 				11DCBDC21F4D793500E97E0E /* iconHouseTab.png */,
 				11DCBDC31F4D793500E97E0E /* iconSeasons.png */,
@@ -233,6 +258,25 @@
 				1132750C1F4C8BCC0003E029 /* HouseViewController.xib */,
 			);
 			name = NoGenerics;
+			sourceTree = "<group>";
+		};
+		117CA3B61F4DA9450008786B /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				117CA3B71F4DA9700008786B /* episode1x01.jpg */,
+				117CA3B81F4DA9700008786B /* episode1x02.jpg */,
+				117CA3B91F4DA9700008786B /* episode2x01.jpg */,
+				117CA3BA1F4DA9700008786B /* episode2x02.jpg */,
+				117CA3BB1F4DA9700008786B /* episode3x01.jpg */,
+				117CA3BC1F4DA9700008786B /* episode3x02.jpg */,
+				117CA3BD1F4DA9700008786B /* episode4x01.jpg */,
+				117CA3BE1F4DA9700008786B /* episode4x02.jpg */,
+				117CA3BF1F4DA9700008786B /* episode5x01.jpg */,
+				117CA3C01F4DA9700008786B /* episode5x02.jpg */,
+				117CA3C11F4DA9700008786B /* episode6x01.jpg */,
+				117CA3C21F4DA9700008786B /* episode6x02.jpg */,
+			);
+			name = Episodes;
 			sourceTree = "<group>";
 		};
 		11DCBDCA1F4D988900E97E0E /* Repository */ = {
@@ -346,19 +390,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				113274FC1F4C0AD50003E029 /* lannister.jpg in Resources */,
+				117CA3C51F4DA9700008786B /* episode2x01.jpg in Resources */,
 				113275121F4C8D4A0003E029 /* WikiViewController.xib in Resources */,
 				11DCBDD71F4D9D1300E97E0E /* season3.jpg in Resources */,
 				113274C21F4C09980003E029 /* LaunchScreen.storyboard in Resources */,
 				11DCBDD91F4D9D1300E97E0E /* season5.jpg in Resources */,
 				113274FB1F4C0AD50003E029 /* targaryenSmall.jpg in Resources */,
+				117CA3C41F4DA9700008786B /* episode1x02.jpg in Resources */,
 				11DCBDD51F4D9D1300E97E0E /* season1.jpg in Resources */,
 				113274FD1F4C0AD50003E029 /* codeIsComing.png in Resources */,
 				113274BF1F4C09980003E029 /* Assets.xcassets in Resources */,
 				1132750E1F4C8BCC0003E029 /* HouseViewController.xib in Resources */,
 				11DCBDDB1F4D9D1300E97E0E /* season7.jpg in Resources */,
+				117CA3C31F4DA9700008786B /* episode1x01.jpg in Resources */,
+				117CA3CB1F4DA9700008786B /* episode5x01.jpg in Resources */,
 				11DCBDC41F4D793500E97E0E /* iconHouseTab.png in Resources */,
+				117CA3C91F4DA9700008786B /* episode4x01.jpg in Resources */,
+				117CA3C61F4DA9700008786B /* episode2x02.jpg in Resources */,
+				117CA3CC1F4DA9700008786B /* episode5x02.jpg in Resources */,
+				117CA3CE1F4DA9700008786B /* episode6x02.jpg in Resources */,
+				117CA3CD1F4DA9700008786B /* episode6x01.jpg in Resources */,
+				117CA3C81F4DA9700008786B /* episode3x02.jpg in Resources */,
 				11DCBDC51F4D793500E97E0E /* iconSeasons.png in Resources */,
+				117CA3C71F4DA9700008786B /* episode3x01.jpg in Resources */,
 				11DCBDD81F4D9D1300E97E0E /* season4.jpg in Resources */,
+				117CA3CA1F4DA9700008786B /* episode4x02.jpg in Resources */,
 				11DCBDD61F4D9D1300E97E0E /* season2.jpg in Resources */,
 				11DCBDDA1F4D9D1300E97E0E /* season6.jpg in Resources */,
 			);

@@ -7,15 +7,17 @@
 //
 
 import Foundation
-
+import UIKit
 final class Episode{
     let title : String
     let date : Date
+    let image : UIImage
+    let synopsis: String
     weak var season : Season?
     
     
-    init(title: String, date: Date, season: Season) {
-        (self.title, self.date, self.season) = (title, date, season)
+    init(title: String, date: Date, season: Season, image: UIImage, synopsis: String) {
+        (self.title, self.date, self.season, self.image, self.synopsis) = (title, date, season, image, synopsis)
         
     }
 }
