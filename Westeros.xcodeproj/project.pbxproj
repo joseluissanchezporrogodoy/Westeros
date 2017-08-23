@@ -37,6 +37,8 @@
 		113275141F4D5FF60003E029 /* DateExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275131F4D5FF60003E029 /* DateExtensionTest.swift */; };
 		113275171F4DD4BD0003E029 /* SeasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275151F4DD4BD0003E029 /* SeasonViewController.swift */; };
 		113275181F4DD4BD0003E029 /* SeasonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113275161F4DD4BD0003E029 /* SeasonViewController.xib */; };
+		1132751B1F4DDC8A0003E029 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275191F4DDC8A0003E029 /* EpisodeViewController.swift */; };
+		1132751C1F4DDC8A0003E029 /* EpisodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1132751A1F4DDC8A0003E029 /* EpisodeViewController.xib */; };
 		117CA3C31F4DA9700008786B /* episode1x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B71F4DA9700008786B /* episode1x01.jpg */; };
 		117CA3C41F4DA9700008786B /* episode1x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B81F4DA9700008786B /* episode1x02.jpg */; };
 		117CA3C51F4DA9700008786B /* episode2x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B91F4DA9700008786B /* episode2x01.jpg */; };
@@ -107,6 +109,8 @@
 		113275131F4D5FF60003E029 /* DateExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionTest.swift; sourceTree = "<group>"; };
 		113275151F4DD4BD0003E029 /* SeasonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonViewController.swift; sourceTree = "<group>"; };
 		113275161F4DD4BD0003E029 /* SeasonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeasonViewController.xib; sourceTree = "<group>"; };
+		113275191F4DDC8A0003E029 /* EpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		1132751A1F4DDC8A0003E029 /* EpisodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpisodeViewController.xib; sourceTree = "<group>"; };
 		117CA3B71F4DA9700008786B /* episode1x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode1x01.jpg; sourceTree = "<group>"; };
 		117CA3B81F4DA9700008786B /* episode1x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode1x02.jpg; sourceTree = "<group>"; };
 		117CA3B91F4DA9700008786B /* episode2x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode2x01.jpg; sourceTree = "<group>"; };
@@ -262,6 +266,8 @@
 				1132750C1F4C8BCC0003E029 /* HouseViewController.xib */,
 				113275151F4DD4BD0003E029 /* SeasonViewController.swift */,
 				113275161F4DD4BD0003E029 /* SeasonViewController.xib */,
+				113275191F4DDC8A0003E029 /* EpisodeViewController.swift */,
+				1132751A1F4DDC8A0003E029 /* EpisodeViewController.xib */,
 			);
 			name = NoGenerics;
 			sourceTree = "<group>";
@@ -405,6 +411,7 @@
 				117CA3C41F4DA9700008786B /* episode1x02.jpg in Resources */,
 				11DCBDD51F4D9D1300E97E0E /* season1.jpg in Resources */,
 				113274FD1F4C0AD50003E029 /* codeIsComing.png in Resources */,
+				1132751C1F4DDC8A0003E029 /* EpisodeViewController.xib in Resources */,
 				113274BF1F4C09980003E029 /* Assets.xcassets in Resources */,
 				1132750E1F4C8BCC0003E029 /* HouseViewController.xib in Resources */,
 				11DCBDDB1F4D9D1300E97E0E /* season7.jpg in Resources */,
@@ -451,6 +458,7 @@
 				11DCBDC71F4D7BDF00E97E0E /* HouseFactory.swift in Sources */,
 				113274F01F4C0A760003E029 /* Season.swift in Sources */,
 				113274B81F4C09980003E029 /* AppDelegate.swift in Sources */,
+				1132751B1F4DDC8A0003E029 /* EpisodeViewController.swift in Sources */,
 				113275071F4C0EB00003E029 /* Delegates.swift in Sources */,
 				113274F51F4C0AB60003E029 /* UIKitExtensions.swift in Sources */,
 				113274F61F4C0AB60003E029 /* DateExtensions.swift in Sources */,

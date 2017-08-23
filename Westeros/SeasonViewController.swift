@@ -51,7 +51,7 @@ class SeasonViewController: UIViewController {
     
     @objc func displayEpisodes(){
         let dataSource = DataSources.episodeDataSource(model: model.sortedEpisodes())
-        let episodesVC = ArrayTableViewController(dataSource: dataSource, title:"Episodes", style: .plain, delegate: nil)
+        let episodesVC = ArrayTableViewController(dataSource: dataSource, title:"Episodes", style: .plain, delegate: GreatEpisodesDelegate())
         navigationController?.pushViewController(episodesVC, animated: true)
     }
 }
