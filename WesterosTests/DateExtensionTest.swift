@@ -2,12 +2,13 @@
 //  DateExtensionTest.swift
 //  Westeros
 //
-//  Created by jose luis sanchez-porro godoy on 22/08/2017.
+//  Created by jose luis sanchez-porro godoy on 23/08/2017.
 //  Copyright © 2017 jose luis sanchez-porro godoy. All rights reserved.
 //
 
 import XCTest
 @testable import Westeros
+
 class DateExtensionTest: XCTestCase {
     
     override func setUp() {
@@ -29,4 +30,5 @@ class DateExtensionTest: XCTestCase {
         XCTAssertEqual("11-11-1984", stringDate)
         
     }
+    
 }
