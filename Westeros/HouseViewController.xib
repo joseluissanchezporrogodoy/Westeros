@@ -22,26 +22,61 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QFv-nD-R4o" userLabel="Sigil Image View">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHt-5B-wHJ" userLabel="House Name View">
-                    <rect key="frame" x="16" y="98" width="343" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
-                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6F-nu-zW9" userLabel="Words View">
-                    <rect key="frame" x="16" y="611" width="343" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bFC-pU-C4u">
+                    <rect key="frame" x="37.5" y="145" width="300" height="377"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="27j-sV-1bl">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="377"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Y0a-kW-BB1">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="336"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHt-5B-wHJ" userLabel="House Name View">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="26"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="targaryenSmall.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QFv-nD-R4o" userLabel="Sigil Image View">
+                                            <rect key="frame" x="0.0" y="76" width="300" height="260"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="300" id="NZ7-Jn-Svd">
+                                                    <variation key="heightClass=compact-widthClass=compact" constant="260"/>
+                                                </constraint>
+                                                <constraint firstAttribute="height" constant="260" id="t0a-wU-AAO"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <variation key="heightClass=compact-widthClass=compact" spacing="25"/>
+                                    <variation key="heightClass=compact-widthClass=regular" spacing="19"/>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6F-nu-zW9" userLabel="Words View">
+                                    <rect key="frame" x="0.0" y="358" width="300" height="19"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
+                            <variation key="heightClass=compact-widthClass=regular" spacing="15"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="27j-sV-1bl" firstAttribute="centerY" secondItem="bFC-pU-C4u" secondAttribute="centerY" id="G3u-X1-avz"/>
+                        <constraint firstItem="27j-sV-1bl" firstAttribute="centerX" secondItem="bFC-pU-C4u" secondAttribute="centerX" id="taT-FG-Awv"/>
+                    </constraints>
+                    <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
+                </stackView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bFC-pU-C4u" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="6O1-h0-4pe"/>
+                <constraint firstItem="bFC-pU-C4u" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="q5O-8d-gQp"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="targaryenSmall.jpg" width="300" height="300"/>
+    </resources>
 </document>
