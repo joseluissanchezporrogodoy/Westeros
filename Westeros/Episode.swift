@@ -51,7 +51,7 @@ extension Episode: Comparable {
 extension Episode: CustomStringConvertible{
     var description: String {
         get{
-            return proxy
+            return "Episode: \(title)"
         }
     }
 }

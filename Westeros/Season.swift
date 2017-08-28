@@ -93,7 +93,7 @@ extension Season: Comparable {
 extension Season: CustomStringConvertible{
     var description: String {
         get{
-            return proxy
+            return "Season: \(name)"
         }
     }
 }
