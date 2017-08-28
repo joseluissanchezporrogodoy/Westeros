@@ -39,6 +39,8 @@
 		113275181F4DD4BD0003E029 /* SeasonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113275161F4DD4BD0003E029 /* SeasonViewController.xib */; };
 		1132751B1F4DDC8A0003E029 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113275191F4DDC8A0003E029 /* EpisodeViewController.swift */; };
 		1132751C1F4DDC8A0003E029 /* EpisodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1132751A1F4DDC8A0003E029 /* EpisodeViewController.xib */; };
+		11338D9E1F53FBBB008D381C /* Diagram.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11338D9D1F53FBBB008D381C /* Diagram.storyboard */; };
+		11338DA01F53FDFC008D381C /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 11338D9F1F53FDFC008D381C /* launchImage.png */; };
 		117CA3C31F4DA9700008786B /* episode1x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B71F4DA9700008786B /* episode1x01.jpg */; };
 		117CA3C41F4DA9700008786B /* episode1x02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B81F4DA9700008786B /* episode1x02.jpg */; };
 		117CA3C51F4DA9700008786B /* episode2x01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 117CA3B91F4DA9700008786B /* episode2x01.jpg */; };
@@ -111,6 +113,8 @@
 		113275161F4DD4BD0003E029 /* SeasonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeasonViewController.xib; sourceTree = "<group>"; };
 		113275191F4DDC8A0003E029 /* EpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
 		1132751A1F4DDC8A0003E029 /* EpisodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpisodeViewController.xib; sourceTree = "<group>"; };
+		11338D9D1F53FBBB008D381C /* Diagram.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Diagram.storyboard; sourceTree = "<group>"; };
+		11338D9F1F53FDFC008D381C /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
 		117CA3B71F4DA9700008786B /* episode1x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode1x01.jpg; sourceTree = "<group>"; };
 		117CA3B81F4DA9700008786B /* episode1x02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode1x02.jpg; sourceTree = "<group>"; };
 		117CA3B91F4DA9700008786B /* episode2x01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = episode2x01.jpg; sourceTree = "<group>"; };
@@ -226,6 +230,7 @@
 		113274F71F4C0AC70003E029 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11338D9F1F53FDFC008D381C /* launchImage.png */,
 				117CA3B61F4DA9450008786B /* Episodes */,
 				11DCBDCD1F4D9CFB00E97E0E /* Seasons */,
 				11DCBDC21F4D793500E97E0E /* iconHouseTab.png */,
@@ -265,6 +270,7 @@
 				1132750B1F4C8BCC0003E029 /* HouseViewController.swift */,
 				1132750C1F4C8BCC0003E029 /* HouseViewController.xib */,
 				113275151F4DD4BD0003E029 /* SeasonViewController.swift */,
+				11338D9D1F53FBBB008D381C /* Diagram.storyboard */,
 				113275161F4DD4BD0003E029 /* SeasonViewController.xib */,
 				113275191F4DDC8A0003E029 /* EpisodeViewController.swift */,
 				1132751A1F4DDC8A0003E029 /* EpisodeViewController.xib */,
@@ -401,12 +407,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11338DA01F53FDFC008D381C /* launchImage.png in Resources */,
 				113274FC1F4C0AD50003E029 /* lannister.jpg in Resources */,
 				117CA3C51F4DA9700008786B /* episode2x01.jpg in Resources */,
 				113275121F4C8D4A0003E029 /* WikiViewController.xib in Resources */,
 				11DCBDD71F4D9D1300E97E0E /* season3.jpg in Resources */,
 				113274C21F4C09980003E029 /* LaunchScreen.storyboard in Resources */,
 				11DCBDD91F4D9D1300E97E0E /* season5.jpg in Resources */,
+				11338D9E1F53FBBB008D381C /* Diagram.storyboard in Resources */,
 				113274FB1F4C0AD50003E029 /* targaryenSmall.jpg in Resources */,
 				117CA3C41F4DA9700008786B /* episode1x02.jpg in Resources */,
 				11DCBDD51F4D9D1300E97E0E /* season1.jpg in Resources */,
